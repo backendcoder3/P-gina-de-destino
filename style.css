@@ -1,0 +1,205 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: first baseline;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a, #footer-text, #primero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header, #primero, #footer {
+    background-color: #1f2937;
+}
+
+#primero {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 100px 15%;
+    min-height: 350px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#primero-div-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 450px;
+}
+
+#primero-div-1, #primero-div-2 {
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.1;
+}
+
+h1, #primero-text {
+    text-align: left;
+}
+
+#primero-text {
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#boton-primero {
+    background-color: #3882f6;
+    color: white;
+    cursor: pointer;
+    align-self: flex-start;
+    border: none;
+}
+
+#boton-primero, #button-cuarto{
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#rectangulo {
+    background-color: #6d7581;
+    color: #e5e7eb;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+#segundo {
+    background-color: white;
+}
+
+#segundo-title {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+#segundo-recuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cubo {
+    width: 210px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 30px;
+}
+
+.segundo-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+#segundo-title, #tercer-text {
+    color: #1f2937;
+}
+
+#segundo, #tercero {
+    font-size: 36px;  
+    
+}
+
+#priemro, #segundo, #tercero, #cuarto {
+    padding: 5% 15%; 
+    min-height: 350px;
+    max-width: 900px;
+}
+
+#tercero {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tercer-text {
+    text-align: justify;
+}
+
+#tercero-text-2 {
+    font-weight: bold;
+    text-align: right;
+}
+
+#cuarto-rectangulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+#cuarto-text {
+    text-align: left;
+}
+
+#cuarto-text-1 {
+    font-weight: bold;
+}
+
+#cuarto-text, #button-cuarto {
+    color: white;
+}
+
+#button-cuarto {
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+}
+
+#footer {
+    padding: 20px 0;
+}
+
+#footer-text {
+    text-align: center;
+}
